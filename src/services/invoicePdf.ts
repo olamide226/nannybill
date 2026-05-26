@@ -12,7 +12,7 @@ export function downloadInvoicePdf(invoice: Invoice, items: AttendanceLog[]): vo
   doc.setTextColor(0, 242, 254);
   doc.setFont("Helvetica", "bold");
   doc.setFontSize(22);
-  doc.text("TIME TRACKER", 15, 23);
+  doc.text("NANNYBILL", 15, 23);
 
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(10);

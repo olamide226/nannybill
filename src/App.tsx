@@ -85,9 +85,9 @@ export default function App() {
       <div className="onboarding-container">
         <div style={{ width: "100%", maxWidth: "485px" }}>
           <div className="onboarding-header">
-            <h1 className="brand-logo" style={{ fontSize: "2.2rem" }}>TIME TRACK</h1>
+            <h1 className="brand-logo" style={{ fontSize: "2.2rem" }}>NANNYBILL</h1>
             <p style={{ color: "hsl(var(--text-secondary))", marginTop: "0.5rem" }}>
-              Experience-First Childcare Time Tracker
+              Childcare Attendance & Invoicing System
             </p>
           </div>
           <Settings
@@ -113,7 +113,7 @@ export default function App() {
       {/* Sidebar Navigation */}
       <aside className="sidebar">
         <div className="brand">
-          <span className="brand-logo">TIME TRACK</span>
+          <span className="brand-logo">NANNYBILL</span>
         </div>
 
         <nav style={{ flex: 1 }}>

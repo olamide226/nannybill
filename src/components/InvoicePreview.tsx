@@ -19,7 +19,7 @@ export default function InvoicePreview({ invoice, items }: InvoicePreviewProps) 
     <div className="invoice-preview-sheet">
       <div className="invoice-preview-header">
         <div>
-          <div className="invoice-preview-brand">TIME TRACKER</div>
+          <div className="invoice-preview-brand">NANNYBILL</div>
           <div className="invoice-preview-subtitle">Automated Invoicing</div>
         </div>
         <div className="invoice-preview-meta">
