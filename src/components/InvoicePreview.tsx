@@ -77,8 +77,10 @@ export default function InvoicePreview({ invoice, items }: InvoicePreviewProps) 
         <div>
           <span className="invoice-preview-label">Payment Method</span>
           <span>Please make payments via bank transfer within 7 days.</span>
-          <strong>Sort Code 40-11-92 | Account 58739226</strong>
-          <span>Account Name: Abiola Adefuye</span>
+          <strong>
+            Sort Code {import.meta.env.VITE_BANK_SORT_CODE || "00-00-00"} | Account {import.meta.env.VITE_BANK_ACCOUNT_NUMBER || "12345678"}
+          </strong>
+          <span>Account Name: {import.meta.env.VITE_BANK_ACCOUNT_NAME || "Jane Doe"}</span>
         </div>
         <div className="invoice-preview-total-box">
           <span>Status: {invoice.status}</span>
