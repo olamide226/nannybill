@@ -101,7 +101,8 @@ export function downloadInvoicePdf(invoice: Invoice, items: AttendanceLog[]): vo
   doc.text("PAYMENT METHOD:", 15, finalY + 8);
   doc.text("Please make payments via bank transfer within 7 days.", 15, finalY + 13);
   doc.setFont("Helvetica", "bold");
-  doc.text("Bank Transfer: Sort Code 00-00-00 | Account 12345678", 15, finalY + 18);
+  doc.text("Bank Transfer: Sort Code 40-11-92 | Account 58739226", 15, finalY + 18);
+  doc.text("Account Name: Abiola Adefuye", 15, finalY + 23);
 
   doc.save(`invoice_${invoice.invoice_number}.pdf`);
 }

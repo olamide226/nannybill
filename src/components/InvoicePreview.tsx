@@ -19,8 +19,8 @@ export default function InvoicePreview({ invoice, items }: InvoicePreviewProps) 
     <div className="invoice-preview-sheet">
       <div className="invoice-preview-header">
         <div>
-          <div className="invoice-preview-brand">EXPERIENCE-FIRST TRACKER</div>
-          <div className="invoice-preview-subtitle">Professional Childcare Invoicing</div>
+          <div className="invoice-preview-brand">TIME TRACKER</div>
+          <div className="invoice-preview-subtitle">Automated Invoicing</div>
         </div>
         <div className="invoice-preview-meta">
           <strong>INVOICE</strong>
@@ -32,9 +32,7 @@ export default function InvoicePreview({ invoice, items }: InvoicePreviewProps) 
       <div className="invoice-preview-parties">
         <div>
           <span className="invoice-preview-label">Billed By</span>
-          <strong>Experience-First Childminding</strong>
-          <span>admin@childminder.co.uk</span>
-          <span>United Kingdom</span>
+          <strong>Automated System</strong>
         </div>
         <div>
           <span className="invoice-preview-label">Billed To</span>
@@ -79,7 +77,8 @@ export default function InvoicePreview({ invoice, items }: InvoicePreviewProps) 
         <div>
           <span className="invoice-preview-label">Payment Method</span>
           <span>Please make payments via bank transfer within 7 days.</span>
-          <strong>Sort Code 00-00-00 | Account 12345678</strong>
+          <strong>Sort Code 40-11-92 | Account 58739226</strong>
+          <span>Account Name: Abiola Adefuye</span>
         </div>
         <div className="invoice-preview-total-box">
           <span>Status: {invoice.status}</span>
